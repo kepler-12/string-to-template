@@ -1,5 +1,5 @@
 import parser from './parser'
-import complier from './compiler'
+import compiler from './compiler'
 
 export default (code) => {
   console.log('execute code:', typeof code, code)
