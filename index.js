@@ -12,7 +12,7 @@ module.export = (code) => {
   }
 
   const compiledCode = compiler(result)
-
+  console.log("compiler", compiledCode)
   return compiledCode.result
   
 }
