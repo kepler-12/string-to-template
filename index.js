@@ -1,7 +1,7 @@
 import parser from './parser'
 import complier from './compiler'
 
-module.export = (code) => {
+module.exports = (code) => {
   console.log('execute code:', typeof code, code)
   const result = parser(code)
 
