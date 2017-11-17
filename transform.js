@@ -22,7 +22,7 @@ export default function evalJS (script) {
   }
   script = `(function(exports){var module={};module.exports=exports;${script};return module.exports.__esModule?module.exports.default:module.exports;})({})`
   const result = new Function('return ' + script)() || {} // eslint-disable-line
-  console.log('transform result', result)
+  console.log('transform result:: ', result)
   return result
 }
 
