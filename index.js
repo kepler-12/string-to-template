@@ -4,7 +4,6 @@ import compiler from './compiler'
 export default (code) => {
   console.log('execute code:', typeof code, code)
   const result = parser(code)
-
   /* istanbul ignore next */
   if (result.error) {
     console.error(result.error.message)

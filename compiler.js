@@ -8,9 +8,10 @@ export default function ({ template, script = 'module.exports={}', styles }) {
     if (template) {
       result.template = template
     }
+    result.styles = styles && styles.join(' ')
     return {
       result: result,
-      styles: styles && styles.join(' ')
+     
     }
   } catch (error) {
     return { error }
