@@ -1,11 +1,36 @@
 {
-  "name": "string-to-template",
-  "version": "1.0.0",
+  "_from": "github:kepler-12/string-to-template#master",
+  "_id": "string-to-template@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-U2hr4gltEnivMxj+vLOl1tBthXY=",
+  "_location": "/string-to-template",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:kepler-12/string-to-template#master",
+    "rawSpec": "github:kepler-12/string-to-template#master",
+    "saveSpec": "github:kepler-12/string-to-template#master",
+    "fetchSpec": null,
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:kepler-12/string-to-template#0dbc69e61b09c12be7d4551ea843d71e528c5cba",
+  "_spec": "github:kepler-12/string-to-template#master",
+  "_where": "/Build/smart-site",
+  "author": {
+    "name": "qingwei-li"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "Live Template utils taken from vuep",
+  "license": "MIT",
   "main": "./index.js",
+  "name": "string-to-template",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "qingwei-li",
-  "license": "MIT"
+  "version": "1.0.0"
 }

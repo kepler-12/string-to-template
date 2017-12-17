@@ -2,7 +2,6 @@ import parser from './parser'
 import compiler from './compiler'
 
 export default (code) => {
-  console.log('execute code:', typeof code, code)
   const result = parser(code)
   /* istanbul ignore next */
   if (result.error) {
@@ -11,7 +10,6 @@ export default (code) => {
   }
 
   const compiledCode = compiler(result)
-  console.log("compiler", compiledCode)
   return compiledCode.result
   
 }
